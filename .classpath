@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="javasource"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/runtime/bundles/com.mendix.json.jar"/>
+	<classpathentry kind="lib" path="/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/runtime/bundles/com.mendix.logging-api.jar"/>
+	<classpathentry kind="lib" path="/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/runtime/bundles/com.mendix.m2ee-api.jar"/>
+	<classpathentry kind="lib" path="/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/runtime/bundles/com.mendix.public-api.jar"/>
+	<classpathentry kind="lib" path="/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/runtime/bundles/org.eclipse.jetty.toolchain.jetty-servlet-api.jar"/>
+	<classpathentry kind="lib" path="/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/runtime/bundles/org.eclipse.jetty.toolchain.jetty-javax-websocket-api.jar"/>
+	<classpathentry kind="lib" path="vendorlib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="vendorlib/owasp-java-html-sanitizer-20211018.2.jar"/>
+	<classpathentry kind="lib" path="vendorlib/bcpg-jdk18on-1.75.jar"/>
+	<classpathentry kind="lib" path="vendorlib/j2objc-annotations-2.8.jar"/>
+	<classpathentry kind="lib" path="vendorlib/commons-io-2.11.0.jar"/>
+	<classpathentry kind="lib" path="vendorlib/fontbox-2.0.30.jar"/>
+	<classpathentry kind="lib" path="vendorlib/checker-qual-3.33.0.jar"/>
+	<classpathentry kind="lib" path="vendorlib/failureaccess-1.0.1.jar"/>
+	<classpathentry kind="lib" path="vendorlib/bcutil-jdk18on-1.75.jar"/>
+	<classpathentry kind="lib" path="vendorlib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry kind="lib" path="vendorlib/guava-32.0.1-jre.jar"/>
+	<classpathentry kind="lib" path="vendorlib/error_prone_annotations-2.18.0.jar"/>
+	<classpathentry kind="lib" path="vendorlib/pdfbox-2.0.30.jar"/>
+	<classpathentry kind="lib" path="vendorlib/bcprov-jdk18on-1.75.jar"/>
+	<classpathentry kind="lib" path="vendorlib/commons-lang3-3.12.0.jar"/>
+	<classpathentry kind="lib" path="vendorlib/bcpkix-jdk18on-1.75.jar"/>
+	<classpathentry kind="lib" path="vendorlib/jsr305-3.0.2.jar"/>
+	<classpathentry kind="lib" path="vendorlib/commons-text-1.10.0.jar"/>
+	<classpathentry kind="output" path="deployment/run/bin"/>
+</classpath>

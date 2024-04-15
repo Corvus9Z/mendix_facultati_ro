@@ -1,0 +1,20 @@
+{
+  "Configuration": {
+    "DatabaseName": "default",
+    "DatabasePassword": "",
+    "DatabaseType": "HSQLDB",
+    "DatabaseHost": "",
+    "DatabaseUserName": "",
+    "DatabaseUseIntegratedSecurity": "False",
+    "ApplicationRootUrl": "http://localhost:8080/",
+    "ScheduledEventExecution": "None"
+  },
+  "Constants": {
+    "CommunityCommons.MergeMultiplePdfs_MaxAtOnce": "10",
+    "Encryption.LogNode": "Encryption",
+    "Encryption.EncryptionPrefix": "{AES3}",
+    "Encryption.LegacyEncryptionKey": "",
+    "Encryption.EncryptionKey": "uVaWc1MbRZrY7hnFboKGBleb/CQ8ql6J"
+  },
+  "AdminPassword": null
+}

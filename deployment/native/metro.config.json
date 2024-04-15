@@ -1,0 +1,60 @@
+{
+  "watchFolders": [
+    "/Users/cosmin/Desktop/mendix/theme",
+    "/Users/cosmin/Desktop/mendix/javascriptsource",
+    "/Users/cosmin/Desktop/mendix/themesource",
+    "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules"
+  ],
+  "resolver": {
+    "useWatchman": false,
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "sourceExts": [
+      "js",
+      "jsx",
+      "ts",
+      "tsx",
+      "cjs",
+      "mjs",
+      "json",
+      "js_commonjs-exports",
+      "js_commonjs-module"
+    ],
+    "extraNodeModules": {
+      "@babel/runtime": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/@babel/runtime",
+      "big.js": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/big.js",
+      "react": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/react",
+      "react-dom": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/react-dom",
+      "react-native-gesture-handler": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/react-native-gesture-handler",
+      "react-native": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/react-native",
+      "react-native-device-info": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/react-native-device-info",
+      "react-native-material-menu": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/react-native-material-menu",
+      "react-navigation": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/react-navigation",
+      "react-navigation-drawer": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/react-navigation-drawer",
+      "react-navigation-stack": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/react-navigation-stack",
+      "react-navigation-tabs": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/react-navigation-tabs",
+      "react-native-svg": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/react-native-svg",
+      "react-native-tab-view": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/react-native-tab-view",
+      "react-native-vector-icons": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/react-native-vector-icons",
+      "react-native-fast-image": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/react-native-fast-image",
+      "react-native-screens": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/react-native-screens",
+      "react-native-localize": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/react-native-localize",
+      "react-native-reanimated": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/react-native-reanimated",
+      "react-native-safe-area-context": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/react-native-safe-area-context",
+      "@react-native-community/async-storage": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/@react-native-community/async-storage",
+      "@react-native-community/datetimepicker": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/@react-native-community/datetimepicker",
+      "@react-native-community/masked-view": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/@react-native-community/masked-view",
+      "eventemitter3": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/eventemitter3",
+      "@react-native-picker/picker": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/@react-native-picker/picker",
+      "deprecated-react-native-prop-types": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/deprecated-react-native-prop-types",
+      "metro-file-map": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/metro-file-map",
+      "jsbi": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/jsbi",
+      "@mendix/wa-sqlite": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/@mendix/wa-sqlite",
+      "mendix": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/mendix",
+      "mx-global": "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/mx-global"
+    }
+  },
+  "cacheVersion": "31759"
+}

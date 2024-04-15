@@ -1,0 +1,1 @@
+"/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents\modeler\tools\node\win-x64\node.exe" "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents\modeler\tools\node\node_modules\rollup\dist\bin\rollup" -c -w

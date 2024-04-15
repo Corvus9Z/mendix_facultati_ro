@@ -1,0 +1,80 @@
+{
+  "RuntimeVersion": "10.9.0.31759",
+  "ProjectID": "69bbf7ce-5a79-4d92-8f27-b914accc4b7e",
+  "ProjectName": "FacultatiRo",
+  "ModelVersion": "unversioned",
+  "Description": "",
+  "AdminUser": "MxAdmin",
+  "AdminRole": "8dd52bfa-6d7e-453b-b506-303c0a3d9567",
+  "JavaVersion": 11,
+  "Roles": {
+    "8dd52bfa-6d7e-453b-b506-303c0a3d9567": {
+      "Name": "Administrator",
+      "ManageableRoles": [
+        "8dd52bfa-6d7e-453b-b506-303c0a3d9567",
+        "53f5d6fa-6da9-4a71-b011-454ec052cce8"
+      ]
+    },
+    "53f5d6fa-6da9-4a71-b011-454ec052cce8": {
+      "Name": "User"
+    }
+  },
+  "Constants": [
+    {
+      "Name": "CommunityCommons.MergeMultiplePdfs_MaxAtOnce",
+      "Type": "Integer",
+      "Description": "Restricted to 10 files at once for Mendix Cloud v4 compatibility. If you need to merge more than 10 files increase the number here. Setting the value to <=0 means unlimited.\r\n\r\nNote: We very strongly recommend to not increase the number for applications running in Mendix Cloud v4.",
+      "DefaultValue": "10"
+    },
+    {
+      "Name": "Encryption.EncryptionKey",
+      "Type": "String",
+      "Description": "This key will be used to encrypt and decrypt values.\r\nThe length of this key must be 32 characters.",
+      "DefaultValue": "uVaWc1MbRZrY7hnFboKGBleb/CQ8ql6J"
+    },
+    {
+      "Name": "Encryption.EncryptionPrefix",
+      "Type": "String",
+      "Description": "Prefix for stored encrypted values.\r\nThis value is used to determine whether the value has been already encrypted.\r\nThe prefix must be either {AES}, {AES2} or {AES3}.\r\nEncryption is only supported if the prefix is {AES3}.\r\nIt is not recommended to change this value.",
+      "DefaultValue": "{AES3}"
+    },
+    {
+      "Name": "Encryption.LegacyEncryptionKey",
+      "Type": "String",
+      "Description": "This key will be used to decrypt values that are encrypted with legacy algorithms.\r\nThe length of this key must be 16 characters.",
+      "DefaultValue": ""
+    },
+    {
+      "Name": "Encryption.LogNode",
+      "Type": "String",
+      "Description": "Node which appears in log messages for this module.",
+      "DefaultValue": "Encryption"
+    }
+  ],
+  "ScheduledEvents": [],
+  "Languages": [
+    "en_US"
+  ],
+  "Configuration": {
+    "SourceDatabaseType": "HSQLDB",
+    "SourceDatabaseName": "default",
+    "SourceBuiltInDatabasePath": "model/sampledata/data/database"
+  },
+  "RequestHandlers": [
+    {
+      "Name": "/p/",
+      "DefaultEnabled": false,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/api/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/link/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    }
+  ]
+}

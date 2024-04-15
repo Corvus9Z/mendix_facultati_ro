@@ -1,0 +1,11 @@
+{
+  "presets": ["/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/metro-react-native-babel-preset"],
+  "plugins": [
+    [
+      "/Applications/Studio Pro 10.9.0.31759-Beta.app/Contents/modeler/tools/node/node_modules/babel-plugin-inline-import",
+      {
+        "extensions": [".svg"]
+      }
+    ]
+  ]
+}

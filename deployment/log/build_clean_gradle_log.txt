@@ -1,0 +1,40 @@
+Initialized native services in: /Users/cosmin/.gradle/native
+Initialized jansi services in: /Users/cosmin/.gradle/native
+Received JVM installation metadata from '/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home': {JAVA_HOME=/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home, JAVA_VERSION=11.0.20.1, JAVA_VENDOR=Eclipse Adoptium, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=11.0.20.1+1, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=11.0.20.1+1, VM_VENDOR=Eclipse Adoptium, OS_ARCH=x86_64}
+The client will now receive all logging from the daemon (pid: 2484). The daemon log file: /Users/cosmin/.gradle/daemon/7.6.3/daemon-2484.out.log
+Starting 3rd build in daemon [uptime: 16 mins 29.114 secs, performance: 100%, non-heap usage: 31% of 256 MiB]
+Closing daemon's stdin at end of input.
+The daemon will no longer process any standard input.
+Using 8 worker leases.
+Now considering [/Users/cosmin/Desktop/mendix/deployment, /Users/cosmin/Desktop/mendix/vendorlib/temp] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file '/Users/cosmin/Desktop/mendix/deployment/settings.gradle'.
+Projects loaded. Root project using build file '/Users/cosmin/Desktop/mendix/deployment/build.gradle'.
+Included projects: [root project 'deployment']
+
+> Configure project :
+Evaluating root project 'deployment' using build file '/Users/cosmin/Desktop/mendix/deployment/build.gradle'.
+Compiling script '/Users/cosmin/Desktop/mendix/deployment/variables.gradle' using SubsetScriptTransformer.
+Compiling script '/Users/cosmin/Desktop/mendix/deployment/variables.gradle' using BuildScriptTransformer.
+All projects evaluated.
+Task name matched 'clean'
+Selected primary task 'clean' from project :
+Tasks to be executed: [task ':clean']
+Tasks that were excluded: []
+Resolve mutations for :clean (Thread[Execution worker,5,main]) started.
+:clean (Thread[Execution worker,5,main]) started.
+
+> Task :clean UP-TO-DATE
+Caching disabled for task ':clean' because:
+  Build cache is disabled
+Task ':clean' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+
+BUILD SUCCESSFUL in 1s
+1 actionable task: 1 up-to-date
+Watched directory hierarchies: []
+
+
+
