@@ -1,2 +1,2 @@
-# mendix_facultati_ro
+This is a small project developed using Mendix, aimed at testing and exploring the capabilities of the platform on my personal PC. The application simulates a basic academic management system focused on Romanian universities and faculties. It includes core features such as viewing and organizing faculty information, and was built as a personal learning exercise to better understand Mendix development and low-code principles.
  
